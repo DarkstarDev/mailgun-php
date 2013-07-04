@@ -28,7 +28,7 @@ Using the library is very simple.  First, make sure you've got the current direc
 Of course, you won't have to do this if you've copied the MailGun directory to any directory in your include path.  Next
 we instantiate `\MailGun\Email` with your domain and your API key:
 
-    $email = new Email('dswebhost.net', 'key-p9q8bfwnelqn3iuqbydf9sapn23lais8');
+    $email = new \MailGun\Email('dswebhost.net', 'key-p9q8bfwnelqn3iuqbydf9sapn23lais8');
 
 Don't worry, that's not my key, but yours should look a lot like that.  The only thing left to do is set the properties
 of our email and send it, which can be done in one fell swoop.  Since we're just testing to make sure we can send our
