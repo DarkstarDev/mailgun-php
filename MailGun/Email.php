@@ -12,7 +12,7 @@ class Email {
     const API_URL = 'https://api.mailgun.net/v2/';
 
     protected $_domain;
-	protected $_apiKey;
+    protected $_apiKey;
     protected $_data = array();
 
     /**
